@@ -1,0 +1,83 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: 100;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(255, 125, 4);
+}
+
+.notifications {
+  position: relative;
+
+}
+
+.count {
+  position: absolute;
+  background-color: rgb(255, 125, 4);
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 10px;
+  right: -2px;
+  top: -8px; 
+}
+
+.home {
+  font-family: arial;
+  font-weight: bold;
+  color: white;
+  margin-left: 12px;
+  margin-right: 12px;
+  cursor: pointer;
+ 
+}
+.home:hover {
+  color: rgb(255, 125, 4);
+  text-decoration: underline;
+ 
+}
+
+
+.tool .tooltip,
+.notifications .tooltip  {
+  background-color: rgb(255, 125, 4);
+  position: absolute;
+  bottom: -30px;
+  padding: 2px 7px 2px 7px;
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  border-radius: 2px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+ 
+}
+
+.tool:hover .tooltip,
+.notifications:hover .tooltip {
+  opacity: 1;
+
+}
+
+.tool,
+.notifications{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}

@@ -1,0 +1,12 @@
+div {
+  font-family: arial;
+}
+
+
+.container {
+  position: relative;
+  display: inline-block;
+  background-color: gray;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+

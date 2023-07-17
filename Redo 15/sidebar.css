@@ -1,0 +1,68 @@
+.sidebar {
+  background-color: rgb(255, 255, 255);
+  z-index: 1001;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  bottom: 0;
+  top: 80px;
+  width: 80px;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-right-color: rgb(255, 125, 4);
+}
+
+
+ .side-icons img {
+  height: 40px;
+  transition: 0.15s;
+ }
+
+ .side-icons:hover img {
+  height: 50px;
+ }
+
+ 
+ .side-flex div {
+  font-size: 12px;
+ 
+ }
+
+ .side-flex {
+  position: relative;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.15s;
+  cursor: pointer;
+
+ }
+
+ .side-flex:hover {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(255, 125, 4);
+ }
+
+ .tootip-side {
+  left: 84px;
+  position: absolute;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  padding: 2px 7px 2px 7px;
+  border-radius: 2px;
+  color: white;
+
+  background-color: rgb(255, 125, 4);
+ }
+
+ .side-flex:hover .tootip-side {
+  opacity: 1;
+ 
+ }
+
+ 

@@ -1,0 +1,195 @@
+.grid2 {
+ padding-bottom: 2px;
+  margin-top: 15px;
+  display: flex;
+  flex: 1;
+  height: 320px;
+  background-color: rgb(255, 125, 4);
+}
+
+@media (max-width: 750px) {
+  .grid2 {
+    flex-wrap: wrap;
+  }
+}
+ 
+
+.flex, .flex1, .flex2, .flex3 {
+  display: flex;
+  flex: 1;
+  display: block;
+  
+ 
+}
+
+.flex {
+  line-height: 18px;
+  background-color: rgb(230, 247, 253);
+}
+
+.flex2 {
+  text-align: center;
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: rgb(196, 238, 253);
+}
+
+.flex3 {
+  text-align: center;
+  background-color: rgb(230, 247, 253);
+}
+
+.p {
+  display: block;
+  text-align: center;
+}
+
+.h {
+  color: rgb(241, 10, 10);
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+}
+
+.visit {
+  margin-top: 4px;
+  text-decoration: underline;
+  cursor: pointer;
+  color: red;
+}
+.visit:hover {
+ opacity: 0.7;
+}
+.visit:active {
+ color: rgb(19, 5, 151);
+}
+.uk {
+  margin-bottom: 4px;
+}
+
+.monday {
+ 
+display: block;
+align-items: center;
+}
+
+
+.monday-color {
+  margin-top: 5px;
+  color: rgb(241, 10, 10);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.sponsor {
+  padding: 10px 0px 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(0, 0, 0);
+  background-color: rgb(255, 125, 4);
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+ 
+.sponsor2 {
+  padding: 10px 0px 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(0, 0, 0);
+  background-color: rgb(255, 125, 4);
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+ 
+.notice {
+  display: block;
+  background-color: rgb(230, 247, 253);
+  margin-top: 12px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+ 
+ 
+.notice2 {
+  margin-top: 10px;
+}
+
+.notice3 {
+  margin-top: 10px;
+}
+.notice4 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+ 
+.people {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 2px;
+  height: 300px;
+  margin: 8px 60px 2px 60px;
+}
+
+@media (max-width: 750px) {
+  .people {
+    flex-wrap: wrap;
+  }
+}
+.imggg {
+  margin-top: 30px;
+  height: 150px;
+  border-radius: 100px;
+  object-fit: cover;
+ 
+}
+ 
+.obong,.daniel, .umoh {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  padding: 4px;
+  background-color:rgb(255, 177, 9);
+}
+
+.esong {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.profile {
+  text-align: justify;
+  margin: 0px 20px 0px 20px;
+  line-height: 25px;
+
+}
+
+
+
+.email:hover {
+  color: red;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+ 

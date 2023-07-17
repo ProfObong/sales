@@ -1,0 +1,87 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+@media (max-width: 750px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.off {
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-family: arial;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 6px;
+  padding-left: 6px;
+  right: 0;
+  top: 5px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(255, 125, 4);
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-left-color: rgb(255, 125, 4);
+
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  border-width: 1px;
+  border-style: solid;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.button:hover {
+  background-color: rgb(255, 125, 4);
+  color: white;
+}
+
+.button:active {
+  background-color: red;
+}
